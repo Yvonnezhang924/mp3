@@ -1,0 +1,18 @@
+Hello, my mp3 task is to create a api for a task management sys. We want to implement an API using Node, Express and Mongoose. Image 1 includes the endpoints that we want to have. Image 2 includes some examples and the rsults they will return. For the database, we have scripts in the database_scripts folder. 
+Responses from your API should be a JSON object with two fields. The first field should be named message and should contain a human readable String. The second field should be named data and should contain the actual JSON response object. For example, here is a valid response:
+
+{
+    "message": "OK",
+    "data": {
+        "_id": "55099652e5993a350458b7b7",
+        "email": "khandek2@illinois.edu",
+        "name": "Sujay Khandekar"
+    }
+}
+Error responses from your API should also also be a JSON object with a message and data fields. Messages have to sensible and human readable so that on the client side it can be displayed to the user.  You should at least have the following codes: 200 (success), 201 (created), 204(no content), 400(bad request), 404 (not found), 500 (server error).
+That's all! Can u tell me what should i do firstly? should i import the db script or should i start with the py?
+
+Great but i have a question. why do we need index.js and home.js here? what are their functions?
+
+
+i see so the id is randomly assigned right? http://localhost:3000/api/users?where={%22_id%22:%2255099652e5993a350458b7b7%22} maybe next time this id doesnot belong to any one
